@@ -24,14 +24,7 @@ export const MainScreenNavigator = TabNavigator({
 });
 
 MainScreenNavigator.navigationOptions = {
-  title: 'Pepperoni App Template',
-  header: {
-    titleStyle: {color: 'white'},
-    style: {
-      backgroundColor: headerColor,
-      elevation: 0 // disable header elevation when TabNavigator visible
-    }
-  }
+  title: 'Pepperoni App Template'
 };
 
 // Root navigator is a StackNavigator
